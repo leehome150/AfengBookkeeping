@@ -10,7 +10,7 @@
         </router-link>
         <router-link to="/statistics" class="item" active-class="selected">
             <Icon name="count"/>
-            统计
+            明细
         </router-link>
     </nav>
 </template>
@@ -33,7 +33,7 @@
 
         > .item {
             padding: 2px 0;
-            width: 33.33333%;
+            width: 33.33%;
             display: flex;
             justify-content: center;
             align-items: center;
