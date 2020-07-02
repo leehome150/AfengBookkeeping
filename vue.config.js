@@ -2,7 +2,7 @@
 const path = require('path')
 module.exports = {
     publicPath: process.env.NODE_ENV === 'production'
-        ? '/manage-money-1-website/'
+        ? '/Manery-website-1/'
         : '/',
     lintOnSave: false,
 

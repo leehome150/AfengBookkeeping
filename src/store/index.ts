@@ -39,6 +39,7 @@ const store = new Vuex.Store({
           store.commit('createTag', '餐饮');
           store.commit('createTag', '住房');
           store.commit('createTag', '交通');
+          store.commit('createTag', '其他');
         }
 
       },
@@ -50,7 +51,7 @@ const store = new Vuex.Store({
         const id = createId().toString();
         state.tagList.push({id, name: name});
         store.commit('saveTags');
-        if (state.tagList.length > 4) {window.alert('添加成功');}
+        if (state.tagList.length > 5) {window.alert('添加成功');}
 
       },
       saveTags(state) {

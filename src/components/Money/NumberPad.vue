@@ -5,11 +5,13 @@
             <button @click="inputContent">1</button>
             <button @click="inputContent">2</button>
             <button @click="inputContent">3</button>
-            <button @click="remove">删除</button>
+            <button @click="remove">
+                <Icon name="del"></Icon>
+            </button>
             <button @click="inputContent">4</button>
             <button @click="inputContent">5</button>
             <button @click="inputContent">6</button>
-            <button @click="clear">清空</button>
+            <button @click="clear">C</button>
             <button @click="inputContent">7</button>
             <button @click="inputContent">8</button>
             <button @click="inputContent">9</button>
@@ -93,6 +95,9 @@
                 float: left;
                 background: transparent;
                 border: none;
+                display: flex;
+                align-items: center;
+                justify-content: center;
 
                 &.ok {
                     height: 48*2px;
